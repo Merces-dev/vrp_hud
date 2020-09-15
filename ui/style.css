@@ -152,10 +152,17 @@ body {
 	z-index: 999 !important;
 	/* background-color: red; */
 }
-
+.seatBeltIcon{
+	float: left;
+	width: 160px;
+	height: 160px;
+	opacity: 0.8;
+	margin: 0 0 7px;
+	background: url("images/cinto0.png") center no-repeat;
+}
 
 .seatbelt {
-	color: rgba(27, 140, 10, 0.6) !important;
+	color: rgba(55, 218, 30, 0.6) !important;
 
 }
 
@@ -172,7 +179,7 @@ body {
 	font-weight: 300;
 	letter-spacing: 3px;
 	padding-right: 5px;
-	color: rgba(134,208,73,0.6);
+	color: rgba(114, 226, 21, 0.6);
 	text-decoration: none;
 }
 
