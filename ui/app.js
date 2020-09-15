@@ -30,6 +30,8 @@ $(document).ready(function(){
 				$(".staminaOrGas").css("background", "url(images/gas.png) center no-repeat");
 				$(".staminaOrGasHover").css("width", event.data.fuel + "%");
 				$("#displayVehicle").css("display","block");
+				$("#displayVehicleIcon").css("display","block");
+
 				if (event.data.seatbelt == true) {
 					$("#displayVehicle").addClass("seatbelt").html(event.data.speed+"<s>KMH</s>");
 				} else {
@@ -37,6 +39,7 @@ $(document).ready(function(){
 				}
 			} else {
 				$("#displayVehicle").css("display","none");
+				$("#displayVehicleIcon").css("display","none");
 				$(".staminaOrGas").css("background", "url(images/stamina.png) center no-repeat");
 				$(".staminaOrGasHover").css("width", event.data.stamina + "%");
 			}
