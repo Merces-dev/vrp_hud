@@ -35,7 +35,7 @@ $(document).ready(function(){
 				if (event.data.seatbelt == true) {
 					$("#displayVehicle").addClass("seatbelt").html(event.data.speed+"<s>KMH</s>");
 					$(".seatBeltIcon").css("background", "url(images/cinto2.png) center no-repeat");
-
+		
 				} else {
 					$("#displayVehicle").removeClass("seatbelt").html(event.data.speed+"<b>KMH</b>");
 					$(".seatBeltIcon").css("background", "url(images/cinto0.png) center no-repeat");
@@ -52,6 +52,7 @@ $(document).ready(function(){
 			$("#displayVehicle").css("display","none");
 		}
 
+		
 			// 	
 
 		if (event.data.movie == true){
